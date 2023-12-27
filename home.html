@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+     initial-scale=1.0">
+    <title>İlMondo shopping </title>
+
+    <!-- Bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!--Fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!--Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <!--  -->
+
+    <!--  -->
+
+    <!--  -->
+
+    <!--Css links  -->
+    <link rel="stylesheet" href="./assest/css/main.css">
+
+</head>
+<body>
+    <style>
+        body{
+            background-color: #f1f1f1;
+        }
+    </style>
+    <!-- Navbar and tols -->
+    <header>
+        <div class="container-fluid head">
+            <div class="row mt-2 head1">
+             <div class="logo  col-3 ">
+                <a class="d-flex" href="home.html">
+                    
+                    <p><b>İl<strong>Mon</strong><i>do</i></b></p>
+
+                </a>
+             </div>
+             <div class="search col-6 ">
+                 <input type="text" placeholder="Products search">
+                <a href="">
+                  <span><i class="fa-solid fa-magnifying-glass"></i></span>
+               </a>
+             </div>
+             <div class="logincart col-3 mt-2">
+                <button class="login">
+                    <a href="login.html">
+                        <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                        
+                    </a>
+                </button>
+                
+                <button class="wishlist">
+                   <a href="">
+                    <svg width="35px" height="35px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                   </a>
+                </button>
+
+                <button class="cart">
+                    <a href="">
+                        <svg width="35px" height="35px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18.5996 21.57C19.7042 21.57 20.5996 20.6746 20.5996 19.57C20.5996 18.4654 19.7042 17.57 18.5996 17.57C17.495 17.57 16.5996 18.4654 16.5996 19.57C16.5996 20.6746 17.495 21.57 18.5996 21.57Z" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M8.59961 21.57C9.70418 21.57 10.5996 20.6746 10.5996 19.57C10.5996 18.4654 9.70418 17.57 8.59961 17.57C7.49504 17.57 6.59961 18.4654 6.59961 19.57C6.59961 20.6746 7.49504 21.57 8.59961 21.57Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M2 3.55997C2 3.55997 6.64 3.49997 6 7.55997L5.31006 11.62C5.20774 12.1068 5.21778 12.6105 5.33954 13.0929C5.46129 13.5752 5.69152 14.0234 6.01263 14.4034C6.33375 14.7833 6.73733 15.0849 7.19263 15.2854C7.64793 15.4858 8.14294 15.5797 8.64001 15.56H16.64C17.7479 15.5271 18.8119 15.1196 19.6583 14.404C20.5046 13.6884 21.0834 12.7069 21.3 11.62L21.9901 7.50998C22.0993 7.0177 22.0939 6.50689 21.9744 6.017C21.8548 5.52712 21.6242 5.07126 21.3005 4.68467C20.9767 4.29807 20.5684 3.99107 20.1071 3.78739C19.6458 3.58371 19.1438 3.48881 18.64 3.50998H9.94" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                       
+                    </a>
+                </button>
+             </div>
+            </div>
+
+        </div>
+        
+    </header>
+
+    <!-- website to main's tools-->
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <div class="categories">
+                        <div class="cathead">
+                            <p>All Categories</p>
+                        </div>
+                        <ul class="category">
+                            <li class="women d-flex">
+                                <span><svg  width="30px" height="20px" viewBox="-12 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Dress</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage"> <g id="Dress" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke="#6B6C6E" stroke-width="2"> <path d="M25.9,26 C29,21.7 31,16 31,12 C31,9.4 30.8,5.6 29,4.8 L29,1 C29,-0.1 28.2,1.32005084e-13 27.1,1.32005084e-13 L26.9,1.32005084e-13 C25.9,1.32005084e-13 25,-0.1 25,1 L25,6.4 C23.3,6.7 19,7.5 19,12 C19,7.7 14.7,6.5 13,6.2 L13,1 C13,-0.1 12.2,1.32005084e-13 11.1,1.32005084e-13 L10.9,1.32005084e-13 C9.9,1.32005084e-13 9,-0.1 9,1 L9,4.6 C7.2,5.4 7,9.3 7,12 C7,16 9,21.7 12.1,26 C5,31.9 1.13686838e-13,48.1 1.13686838e-13,56 C1.13686838e-13,58.6 8.5,62 19,62 C29.5,62 38,58.5 38,56 C38,48.1 33,31.9 25.9,26 L25.9,26 Z" id="Shape" sketch:type="MSShapeGroup"> </path> <path d="M11.1,25.9 C11.1,25.9 17.5,28.5 27,25.9" id="Shape" sketch:type="MSShapeGroup"> </path> </g> </g> </g></svg></span>
+                                <a href="womanproducts.html" class="d-flex ">
+                                <p>Women's  Clothing</p>
+                                </a>
+                            </li>
+                            <li class="men d-flex ">
+                                <span><svg fill="#6B6C6E" height="20px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 511.999 511.999" xml:space="preserve" stroke="#6B6C6E"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M350.725,299.368c-6.3,0-11.413,5.113-11.413,11.413s5.113,11.413,11.413,11.413c6.3,0,11.413-5.113,11.413-11.413 S357.025,299.368,350.725,299.368z"></path> </g> </g> <g> <g> <path d="M255.999,203.501c-6.311,0-11.413,5.113-11.413,11.413c0,6.3,5.102,11.413,11.413,11.413 c6.3,0,11.413-5.113,11.413-11.413C267.412,208.614,262.299,203.501,255.999,203.501z"></path> </g> </g> <g> <g> <path d="M255.999,244.587c-6.311,0-11.413,5.113-11.413,11.413c0,6.3,5.102,11.413,11.413,11.413 c6.3,0,11.413-5.113,11.413-11.413C267.412,249.7,262.299,244.587,255.999,244.587z"></path> </g> </g> <g> <g> <path d="M507.897,164.505L399.122,73.762c-0.007-0.006-0.015-0.01-0.022-0.016c-0.58-0.482-1.206-0.907-1.875-1.268 c-0.121-0.065-0.245-0.116-0.367-0.177c-0.212-0.105-0.421-0.212-0.64-0.305c-0.161-0.067-0.326-0.12-0.49-0.179 c-0.186-0.068-0.369-0.143-0.559-0.201c-0.199-0.06-0.402-0.105-0.603-0.155c-0.16-0.04-0.317-0.088-0.48-0.121 c-0.742-0.151-1.494-0.225-2.245-0.226c-0.01,0-0.019-0.001-0.029-0.001H120.188c-0.009,0-0.018,0.001-0.029,0.001 c-0.752,0.001-1.505,0.076-2.248,0.227c-0.144,0.03-0.282,0.072-0.423,0.106c-0.22,0.054-0.442,0.103-0.66,0.169 c-0.173,0.054-0.34,0.121-0.51,0.183c-0.18,0.065-0.362,0.123-0.54,0.197c-0.202,0.084-0.395,0.185-0.59,0.281 c-0.139,0.067-0.28,0.127-0.417,0.201c-0.668,0.361-1.294,0.786-1.873,1.267c-0.007,0.006-0.015,0.01-0.022,0.016L4.102,164.504 c-4.833,4.032-5.491,11.218-1.467,16.058l61.846,74.412c1.937,2.33,4.721,3.795,7.739,4.07c0.347,0.032,0.693,0.048,1.039,0.048 c2.66,0,5.25-0.93,7.31-2.649l28.207-23.527v196.558c0,6.303,5.109,11.413,11.413,11.413h271.623 c6.303,0,11.413-5.109,11.413-11.413V232.916l28.207,23.527c2.06,1.718,4.65,2.649,7.31,2.649c0.346,0,0.692-0.016,1.039-0.048 c3.018-0.275,5.801-1.739,7.739-4.07l61.846-74.412C513.387,175.722,512.73,168.538,507.897,164.505z M108.775,203.193 l-34.048,28.399l-47.256-56.857l81.303-67.826V203.193z M310.572,93.939c-8.052,20.551-34.138,46.639-54.577,63.146 c-20.445-16.493-46.533-42.572-54.576-63.146H310.572z M380.398,208.467c0,0.001,0,0.002,0,0.003v209.591H131.6V208.47 c0-0.001,0-0.002,0-0.003V93.939h45.981c9.716,39.469,64.771,81.653,71.584,86.747c2.026,1.516,4.43,2.272,6.834,2.272 c2.403,0,4.808-0.758,6.834-2.272c6.815-5.095,61.869-47.277,71.584-86.747h45.981V208.467z M437.271,231.592l-34.048-28.399 v-96.284l81.303,67.826L437.271,231.592z"></path> </g> </g> <g> <g> <path d="M350.725,339.883c-6.303,0-11.413,5.109-11.413,11.413v40.515c0,6.303,5.109,11.413,11.413,11.413 s11.413-5.109,11.413-11.413v-40.515C362.138,344.993,357.028,339.883,350.725,339.883z"></path> </g> </g> </g></svg></span>
+                                <a href="manproducts.html" class="d-flex " >
+                                    <p>Men's  Clothing</p>
+                                </a>
+                            </li>
+                            <li class="accsesor d-flex ">
+                                <span><svg width="30px" height="20px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#6B6C6E"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect x="18" y="8" width="28" height="48" rx="4"></rect><line x1="28" y1="12" x2="36" y2="12"></line><line x1="30" y1="52" x2="34" y2="52"></line></g></svg></span>
+                                <a href="acsesories.html" class="d-flex ">
+                                    <p>Phones & Accsessories</p>
+                                </a>
+                            </li>
+                            <li class="bagshoes d-flex ">
+                                <span><svg width="30px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#6B6C6E"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M3.79424 14.9709C4.33141 17.6567 4.59999 18.9996 5.48746 19.8646C5.65149 20.0244 5.82894 20.1699 6.01786 20.2994C7.04004 21 8.40956 21 11.1486 21H12.8515C15.5906 21 16.9601 21 17.9823 20.2994C18.1712 20.1699 18.3486 20.0244 18.5127 19.8646C19.4001 18.9996 19.6687 17.6567 20.2059 14.9709C20.9771 11.1149 21.3627 9.18686 20.475 7.82067C20.3143 7.5733 20.1267 7.34447 19.9157 7.13836C18.7501 6 16.7839 6 12.8515 6H11.1486C7.21622 6 5.25004 6 4.08447 7.13836C3.87342 7.34447 3.68582 7.5733 3.5251 7.82067C2.63744 9.18686 3.02304 11.1149 3.79424 14.9709Z" stroke="#6B6C6E" stroke-width="1.5"></path> <circle opacity="0.5" cx="15" cy="10" r="1" fill="#6B6C6E"></circle> <circle opacity="0.5" cx="9" cy="10" r="1" fill="#6B6C6E"></circle> <path opacity="0.5" d="M9 6V5C9 3.34315 10.3431 2 12 2C13.6569 2 15 3.34315 15 5V6" stroke="#6B6C6E" stroke-width="1.5" stroke-linecap="round"></path> </g></svg></span>
+                                <a href="bagsshoes.html" class="d-flex ">
+                                    <p>Bags & Shoes</p>
+                                </a>
+                            </li>
+                            <li class="comof d-flex ">
+                                <span><svg width="30px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 4.34315 3.34315 3 5 3H19C20.6569 3 22 4.34315 22 6V15C22 16.6569 20.6569 18 19 18H13V19H15C15.5523 19 16 19.4477 16 20C16 20.5523 15.5523 21 15 21H9C8.44772 21 8 20.5523 8 20C8 19.4477 8.44772 19 9 19H11V18H5C3.34315 18 2 16.6569 2 15V6ZM5 5C4.44772 5 4 5.44772 4 6V15C4 15.5523 4.44772 16 5 16H19C19.5523 16 20 15.5523 20 15V6C20 5.44772 19.5523 5 19 5H5Z" fill="#6B6C6E"></path> </g></svg></span>
+                                <a href="comof.html" class="d-flex ">
+                                    <p>Computer & Office</p>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-5"></div>
+
+                <div class="col-3">
+                    <div class="prime">
+                        <div class="primehead d-flex justify-content-between">
+                            <p><i class="fa-regular fa-gem fa-2xs" style="color: #707070;"></i>PRIME TIME</p>
+                            <a href="">View More<i class="fa-solid fa-chevron-right fa-sm" style="color: #707070;"></i></a>
+                        </div>
+                        <div class="prime1">
+                          <div class="primehead1 d-flex">
+                            <p>FREE</p>
+                            <small>Basic features for all İlMondo users</small>
+                          </div>
+                          <div class="primebody1 d-flex">
+                            <div class="pbitem1 ">
+                               <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>5 Daily Sourcing Requests</span></p>
+                               <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>Free and Unlimited Listing</span></p>
+                               <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>Unlimited Employee Account</span></p>
+                           </div>
+                            <div class="pbitem2">
+                                <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>Unlimited Store Authorization</span></p>
+                                <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>Order Monitoring Service</span></p>
+                                <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>Quality Inspection</span></p>
+                            </div>                        
+                           
+                          </div>
+                        </div>
+                        <div class="prime2">
+                            <div class="primehead2 d-flex justify-content-between">
+                                <p>PLUS</p>
+                                <small>For new dropshippers</small>
+                                <div class="price2">
+                                    <span>$15.99 <small><del>36.99</del></small></span><p>Monthly</p>
+                                </div>
+                            </div>
+                            <div class="primebody2 d-flex">
+                                <div class="pb2item1">
+                                    <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>$3 off $10 Coupon x 2</span></p>
+                                    <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>5 VIP Products </span></p>
+
+                                </div>
+                                <div class="pb2item2">
+                                    <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>50% off on Course under $10</span></p>
+                                    <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>10 Extra Daily Sourcing Requests</span></p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prime3">
+                         <div class="primehead3 d-flex justify-content-between">
+                            <p>Prime</p>
+                            <small>For growing dropshippers</small>
+                            <div class="price3">
+                                <span>$36.99 <small><del>59.99</del></small></span><p>Monthly</p>
+                            </div>
+                         </div>
+                         <div class="primebody3 d-flex">
+                            <div class="pb3item1">
+                                <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>$3 off $10 Coupon x 5 </span></p>
+                                <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>10 VIP Products</span></p>
+
+                            </div>
+                            <div class="pb3item2">
+                                <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>15 Recommended Products </span></p>
+                                <p><i class="fa-solid fa-check" style="color: #187245;"></i><span>20 Extra Daily Sourcing Requests</span></p>
+
+                            </div>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!--website's footer -->
+    <footer></footer>
+
+    <!-- script links and tools -->
+    
+</body>
+</html>

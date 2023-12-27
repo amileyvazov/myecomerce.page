@@ -1,0 +1,294 @@
+.head{
+    background-color: #70be6e;
+    padding-top: 1px;
+}
+
+.head1{
+    border-bottom: 1px solid #f8f9fc;
+}
+
+.logo a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.logo a p{
+    color: green;
+    font-family:'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.logo a p strong{
+    color: yellow;
+}
+
+.logo a p i{
+    color: rgb(60, 21, 230);
+}
+
+.search a{
+    text-decoration: none;
+
+
+}
+
+
+.search  input{
+  width: 80%;
+  height: 40px;
+  padding: 0 25px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: none;
+  border: 1px solid #fff;
+  font-size: 15px;
+  font-family: 'Robot Mono ' monospace;
+  font-weight: 200;
+
+}
+
+
+
+.search a span i{
+    font-size: 30px;
+    color: #fff;
+
+    
+}
+
+.logincart button{
+ margin: 5px;
+ border: none;
+ background-color:  #00000000;
+}
+
+.login a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.cart a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.categories{
+    width: 80%;
+    height: 80vh;
+    margin: 15px 60px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.cathead{
+    background-color: #70be6e;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Romondo Mono' monospace;
+    font-weight: 400;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.category li{
+    margin: 53px 0;
+}
+
+
+.category li a{
+  text-decoration: none;
+}
+
+.category li  :hover{
+    color: #70be6e;
+    cursor: pointer;
+    transition: 1ms;
+}
+
+
+.category li a p{
+    font-size: 16px;
+    color: #6B6C6E;
+    font-family: 'Romondo Mono' monospace;
+    font-weight: 500;
+    margin:0 8px;
+}
+
+.prime{
+    background-color: #fff;
+    margin-top: 15px;
+    height: 80vh;
+}
+
+.primehead{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #70be6e;
+    font-size: 15px;
+    font-family: 'Romondo Mono' monospace;
+    padding:3px 5px;
+}
+
+.primehead p{
+    font-weight: 800;
+    padding: 0 3px;
+    color: #f8f9fc;
+}
+
+.primehead i{
+    padding:0 3px;
+    font-size: 10px;
+}
+
+
+.primehead a{
+text-decoration: none;
+color: #fff;
+}
+
+.prime1{
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 1px solid #70be6e;
+    height: 155px;
+    cursor: pointer;
+}
+
+.primehead1{
+    justify-content: space-between;
+}
+
+
+
+.primehead1 p{
+  font-size: 20px;
+  font-family: 'Romondo Mono'monospace;
+  font-weight: 600;
+  margin: 0 7px;
+}
+
+.primehead1 small{
+    font-size: 10px;
+    margin: 10px;
+}
+
+.primebody1{
+ margin:5px ;
+}
+
+.primebody1 p span{
+   font-size: 9px;
+   padding: 0 5px ;
+}
+
+.primebody1 p i{
+    border: 2px dashed #70be6e;
+    border-radius: 50px;
+}
+
+.prime2{
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 1px solid #70be6e;
+    height: 130px;
+    cursor: pointer
+}
+
+.primehead2 p{
+    font-size: 20px;
+    font-family: 'Romondo Mono'monospace;
+    font-weight: 600;
+    margin: 0 7px;
+}
+
+.primehead2 small{
+    font-size: 10px;
+    margin: 10px;   
+}
+
+.price2 {
+    font-family: 'Romondo Mono' monospace;
+    font-weight: 600;
+    border: 1px solid #70be6e;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.price2 p span{
+    font-size: 16px;
+}
+
+.price2 p {
+    font-size: 10px;
+}
+
+.primebody2{
+    margin:5px ;
+}
+   
+.primebody2 p span{
+    font-size: 9px;
+     
+    padding: 0 10px ;
+}
+   
+.primebody2 p i{
+    border: 2px dashed #70be6e;
+    border-radius: 50px;
+}
+   
+.prime3{
+    border-radius: 5px;
+    margin: 5px 0;
+    border: 1px solid #70be6e;
+    height: 140px;
+    cursor: pointer
+}
+
+.primehead3 p{
+    font-size: 20px;
+    font-family: 'Romondo Mono'monospace;
+    font-weight: 600;
+    margin: 0 7px;
+}
+
+.primehead3 small{
+    font-size: 10px;
+    margin: 10px;   
+}
+
+.price3 {
+    font-family: 'Romondo Mono' monospace;
+    font-weight: 600;
+    border: 1px solid #70be6e;
+    margin: 3px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.price3 p {
+    font-size: 10px;
+}
+
+.primebody3{
+    margin:5px ;
+}
+   
+.primebody3 p span{
+    font-size: 9px;
+     
+    padding: 0 10px ;
+}
+   
+.primebody3 p i{
+    border: 2px dashed #70be6e;
+    border-radius: 50px;
+}
